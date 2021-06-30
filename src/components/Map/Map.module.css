@@ -1,0 +1,69 @@
+.map {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.cel {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: block;
+    text-align: center;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.water {
+    background: navy;
+}
+
+.terra {
+    background: seagreen;
+}
+
+.snow {
+    background: white;
+}
+
+.town {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: peru;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unite {
+    background: cyan;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+    width: 300px;
+    left: 10px;
+    padding: 10px;
+}
+
+.info_title {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.info_body {
+    padding: 10px 0;
+    color: white;
+    font-size: 12px;
+}
