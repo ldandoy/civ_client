@@ -1,7 +1,18 @@
+.mapContainer {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.panel {
+    width: 15%;
+    padding: 1%;
+    background: burlywood;
+}
+
 .map {
     width: 500px;
     height: 500px;
-    margin: auto;
 }
 
 .cel {
@@ -13,6 +24,10 @@
     position: relative;
     float: left;
     cursor: pointer;
+}
+
+.selected {
+    border: 1px solid red !important;
 }
 
 .water {
@@ -49,11 +64,9 @@
 }
 
 .info {
-    position: absolute;
     background: rgba(0, 0, 0, 0.75);
-    width: 300px;
-    left: 10px;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .info_title {
